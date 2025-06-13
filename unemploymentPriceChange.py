@@ -8,8 +8,8 @@ import geopandas as gpd
 
 pd.options.display.max_columns = 100
 
-df_unemployment = pd.read_csv("/Users/jonangui23/Documents/DataFest 2025 Challenge Folder/Unemployment.csv")
-df_leases = pd.read_csv("/Users/jonangui23/Documents/DataFest 2025 Challenge Folder/Leases.csv")
+df_unemployment = pd.read_csv("")
+df_leases = pd.read_csv("")
 #Only taking the availability to use in Graph, for practice purposes
 df_percentAvailable = df_leases[['availability_proportion','state']]
 
